@@ -16,7 +16,6 @@ const ProductionManagement = () => {
         support with both pre-production and on-site execution.
         <br />
         <br />
-        
         We value our team of experts, whose skills range from creating 
         perfectly color-coded spreadsheets to  improvising through unexpected
         on-site challenges. We always tackle anything thrown our way with a 
