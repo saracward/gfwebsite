@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a {
+  color: #efdd14;
+  text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+h1 {
+  color: #efdd14;
+}
+
+.prowords {
+  padding: 30px;
+  color: white;
+  /* background: rgba(255, 255, 255, 0.5); */
+}
+
+/* .border {
+  border: 2px solid white;
+  padding: 15px;
+} */
+/* .serviceContainer {
+  border: 5px solid white;
+} */
+
+img {
+  height: 350px;
+  width: 350px;
+}
+
+.serviceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
