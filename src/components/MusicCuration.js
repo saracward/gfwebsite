@@ -17,7 +17,9 @@ const MusicCuration = () => {
 <br />
 Next Steps :
 <br />
+<br />
 1st : Reach-Out!
+<br />
 <br />
 2nd : Consultation. We’ll set up a consultation with you; phone, facetime or coffee meetup. 
 Let us know what works best for you.
@@ -25,11 +27,13 @@ Let us know what works best for you.
 During your consultation, we’ll get to know a little bit more about you (or your company), 
 your event, budget, etc… so that we can assist in building your vision.
 <br />
+<br />
 3rd : The Reveal. We’ll send you entertainment options to review.
+<br />
 <br />
 4th : The Winner is… You make your selection and we take care of the rest. 
 From contract negotiations to technical riders/stage plots, AV, all advancing 
-production needs. You write one check, we do the rest. So really, the winner is you.</p> 
+production needs. <br /> You write one check, we do the rest. So really, the winner is you.</p> 
  </div>
     )
 }
