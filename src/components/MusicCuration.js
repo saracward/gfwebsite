@@ -5,7 +5,7 @@ const MusicCuration = () => {
     return (
         <div className="serviceContainer3">
      <h1>Music Curation</h1>
-    <p className="musicWords">
+    <p className="musicwords">
     Corporate | Weddings | Festivals | Parties | Venues| Much More
     <br />
     <br />
