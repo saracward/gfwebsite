@@ -3,9 +3,17 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: black;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(61, 0, 53, 1) 50%,
+    rgba(38, 0, 33, 1) 100%
+  );
+  min-height: 100vh;
 }
 
 .contactdiv p {
   width: 75%;
+  color: #fff;
 }
