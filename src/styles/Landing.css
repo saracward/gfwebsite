@@ -4,6 +4,7 @@
 4B0082 - slightly more less dark af purple
 EFDD14 - not purple af at all, actually yellow.
  */
+
 .landing-container {
   height: 100vh;
   width: 100%;
@@ -17,6 +18,7 @@ EFDD14 - not purple af at all, actually yellow.
   align-items: center;
   justify-content: center;
 }
+
 .title {
   color: #eff1f3;
   width: 80%;
@@ -29,6 +31,7 @@ EFDD14 - not purple af at all, actually yellow.
   text-shadow: 0 0 0 #eff1f3, 0 0 10px #eff1f3, 0 0 20px #eff1f3;
   animation: glow 1s ease-in-out infinite alternate;
 }
+
 .bannerCaption {
   color: #efdd14;
   text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
@@ -37,6 +40,7 @@ EFDD14 - not purple af at all, actually yellow.
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 #myElement {
   color: #efdd14;
   text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
@@ -45,6 +49,7 @@ EFDD14 - not purple af at all, actually yellow.
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 @keyframes glow {
   from {
     /* text-shadow: 0 0 0 #eff1f3, 0 0 10px #eff1f3, 0 0 20px #eff1f3; */
@@ -59,15 +64,26 @@ EFDD14 - not purple af at all, actually yellow.
       inset 0 0 25px #4b0082;
   }
 }
+
 @media (max-height: 768px) and (max-width: 1366px) {
 }
+
 @media only screen and (max-width: 768px) {
   .title {
     font-size: 5rem;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .title {
     font-size: 2.75rem;
+  }
+
+  .bannerCaption {
+    font-size: 1rem;
+  }
+
+  #myElement {
+    font-size: 1rem;
   }
 }

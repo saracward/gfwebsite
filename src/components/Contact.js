@@ -34,13 +34,13 @@ const Contact = () => {
           reputation for doing so with an upbeat positive energy.
         </p>
         <form className="contact-form" onSubmit={sendEmail}>
-          {/* <input type="hidden" name="contact_number" /> */}
+          <input type="hidden" name="contact_number" />
           <label>Name</label>
           <input type="text" name="name" placeholder="Name" required />
           <label>Email</label>
           <input type="email" name="email" placeholder="Email" required />
           <label>Message</label>
-          <textarea name="message" placeholder="Drop me a line..." required />
+          <textarea name="message" placeholder="Drop us a line..." required />
           <input id="button" type="submit" value="Send" />
         </form>
       </div>
