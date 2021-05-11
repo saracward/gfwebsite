@@ -25,7 +25,7 @@ EFDD14 - not purple af at all, actually yellow.
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
   font-weight: 700;
-  font-size: 6.25rem;
+  font-size: 2.75rem;
   border: 10px solid #4b0082;
   padding: 15px;
   text-shadow: 0 0 0 #eff1f3, 0 0 10px #eff1f3, 0 0 20px #eff1f3;
@@ -37,7 +37,7 @@ EFDD14 - not purple af at all, actually yellow.
   text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
   font-family: "Julius Sans One", sans-serif;
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -46,7 +46,7 @@ EFDD14 - not purple af at all, actually yellow.
   text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
   font-family: "Julius Sans One", sans-serif;
   padding-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -65,25 +65,74 @@ EFDD14 - not purple af at all, actually yellow.
   }
 }
 
-@media (max-height: 768px) and (max-width: 1366px) {
+.aboutContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .title {
-    font-size: 5rem;
+.aboutContainer .contentBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContainer .contentBox h1 {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.aboutContainer .contentBox p {
+  color: #fff;
+  margin: 1.5rem;
+}
+
+.aboutContainer img {
+  position: relative;
+  width: 90%;
+}
+
+#special {
+  color: #efdd14;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 767px) {
+  .aboutContainer {
+    flex-direction: row;
+  }
+
+  .aboutContainer .contentBox {
+    width: 50%;
+  }
+  .aboutContainer img {
+    width: 50%;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 991px) {
+  .aboutContainer {
+    background: tomato;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .title {
-    font-size: 2.75rem;
+    font-size: 6.25rem;
   }
 
   .bannerCaption {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   #myElement {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .aboutContainer h1 {
   }
 }
