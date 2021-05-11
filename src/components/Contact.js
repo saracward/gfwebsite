@@ -33,6 +33,9 @@ const Contact = () => {
           worthwhile, create memorable experiences, and take great pride in our
           reputation for doing so with an upbeat positive energy.
         </p>
+        <br />
+        <br />
+        <br />
         <form className="contact-form" onSubmit={sendEmail}>
           {/* <input type="hidden" name="contact_number" /> */}
           <label>Name</label>

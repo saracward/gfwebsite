@@ -1,5 +1,6 @@
 p {
   color: black;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .containers {
@@ -7,7 +8,7 @@ p {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(75,0,130,1) 100%
+    rgba(75, 0, 130, 1) 100%
   );
   min-height: 100vh;
 }

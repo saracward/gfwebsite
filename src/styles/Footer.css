@@ -20,6 +20,14 @@
   align-items: center;
 }
 
+.calavera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
 .logo:hover {
   filter: invert(0);
 }
@@ -31,4 +39,8 @@
 
 .fab:hover {
   color: #000;
+}
+
+i {
+  padding: 5px;
 }
