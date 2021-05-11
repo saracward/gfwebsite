@@ -41,6 +41,35 @@ export default class Landing extends Component {
             alt=""
           />
         </div>
+        <div className="services">
+          <div className="serviceBox">
+            <div>
+              <img
+                src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1620754667/Portfolio1/alexey-ruban-73o_FzZ5x-w-unsplash_zw6hxn.jpg"
+                alt=""
+              />
+              <h2>Production Management</h2>
+            </div>
+          </div>
+          <div className="serviceBox">
+            <div>
+              <img
+                src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1620762274/Portfolio1/siim-lukka-S8E5a5ZlkNc-unsplash_lht5lh.jpg"
+                alt=""
+              />
+              <h2>Festival Management</h2>
+            </div>
+          </div>
+          <div className="serviceBox">
+            <div>
+              <img
+                src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1620762274/Portfolio1/taya-iv-sBr-g8wJw5k-unsplash_viuigd.jpg"
+                alt=""
+              />
+              <h2>Music Curation</h2>
+            </div>
+          </div>
+        </div>
       </>
     );
   }
