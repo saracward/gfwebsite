@@ -26,7 +26,7 @@
 
 .contactContainer h1 {
   position: relative;
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
   margin-bottom: 3.125rem;
 }
 
@@ -34,7 +34,7 @@
   /* height: 400px; */
   width: 90%;
   color: #fff;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   margin-bottom: 50px;
 }
 
