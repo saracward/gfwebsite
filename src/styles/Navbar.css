@@ -6,9 +6,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 10;
 }
 .navbar a {
   color: #efdd14;
   text-shadow: 0 0 0 #efdd14, 0 0 10px #efdd14, 0 0 20px #efdd14;
   text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #fff;
+  text-shadow: 0 0 0 #fff, 0 0 10px #fff, 0 0 20px #fff;
 }
