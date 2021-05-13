@@ -1,20 +1,118 @@
-p {
-  color: black;
-}
+/* font-family: "Julius Sans One", sans-serif; */
 
 .containers {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(75,0,130,1) 100%
+    rgba(75, 0, 130, 1) 100%
   );
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.serviceContainer {
+.main {
+  max-width: 75rem;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  max-width: 1700px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #efdd14;
+  padding: 0.8rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(64, 63, 76, 0.5);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(64, 63, 76, 0.5);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  background-color: efdd14;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom right, #4b0082 40%, #000 100%);
+  /* change to purple and yellow */
+}
+
+.card_title {
+  color: #efdd14;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #efdd14;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .cards_item {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+/* .serviceContainer {
   padding: 100px;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 75%;
@@ -22,7 +120,7 @@ p {
 
 .serviceContainer2 {
   padding: 80px;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 75%;
@@ -30,8 +128,8 @@ p {
 
 .serviceContainer3 {
   padding: 80px;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 75%;
-}
+} */
