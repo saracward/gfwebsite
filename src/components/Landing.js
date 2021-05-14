@@ -27,6 +27,8 @@ export default class Landing extends Component {
               <span id="special">
                 The Good Foot specializes in live music, but we do so much more.
               </span>{" "}
+              <br />
+              <br />
               Our goal is to facilitate success for performers, venues,
               festivals and events through constantly evolving creative
               management. We have worked with top quality talent, festivals and

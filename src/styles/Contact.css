@@ -38,10 +38,6 @@
 
 .contact-form {
   width: 90%;
-<<<<<<< HEAD
-  height: 400px;
-=======
->>>>>>> 0c1ac8d44bd039689b4c4758a93ec52f5aeed5ab
   display: flex;
   flex-direction: column;
 }
