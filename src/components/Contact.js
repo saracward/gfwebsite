@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <div className="contactContainer">
-      <h1>GET ON THE GOOD FOOT</h1>
+      <h1 className="contactHeader">GET ON THE GOOD FOOT</h1>
       <div className="flexContainer">
         <p>
           Reach out and let us know how we can help you & your event get on the
@@ -33,6 +33,9 @@ const Contact = () => {
           worthwhile, create memorable experiences, and take great pride in our
           reputation for doing so with an upbeat positive energy.
         </p>
+        <br />
+        <br />
+        <br />
         <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
           <label>Name</label>

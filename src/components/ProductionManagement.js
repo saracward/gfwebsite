@@ -8,7 +8,7 @@ const ProductionManagement = () => {
         <h1>Production Management</h1>
 
         <p className="prowords">
-          Corporate | Public | Private
+          <b>Corporate | Public | Private</b>
           <br />
           <br />
           Good Foot realizes it takes a village and we’re ready contribute to
