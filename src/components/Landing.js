@@ -42,6 +42,13 @@ export default class Landing extends Component {
           />
         </div>
         <div className="services">
+          <h1>Services & Specialties</h1>
+          <p>
+            Our specialty is programming and managing unique live entertainment
+            for festivals and venus. Our connections to bands and performers of
+            all varieties make us an invaluable asset to create an atmosphere of
+            entertainment catered to the client's vision.
+          </p>
           <div className="serviceBox">
             <div>
               <img
@@ -49,6 +56,7 @@ export default class Landing extends Component {
                 alt=""
               />
               <h2>Production Management</h2>
+              {/* <button>Learn More</button> */}
             </div>
           </div>
           <div className="serviceBox">
