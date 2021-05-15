@@ -80,6 +80,50 @@ export default class Landing extends Component {
             </div>
           </div>
         </div>
+        <div className="testimonialContainer">
+          <div className="divider"></div>
+          <h1>Testimonials</h1>
+          <ul className="testCards">
+            <li className="testCards_item">
+              <div className="testCard">
+                <div className="testCard_content">
+                  <i class="fas fa-quote-left" />
+                  <p className="testCard_text">
+                    Since coming on the team 4 years ago, the Food Foot team ahs
+                    become an essential element of the A3C team. Their
+                    professionalism, communication skills, and positive
+                    attitudes has not only contributed to the success of our
+                    events but has elevated the experience for attendees,
+                    vendors, and partners alike.{" "}
+                    {/* <i class="fas fa-quote-right" /> */}
+                  </p>
+                  <p className="testPartner">
+                    Matt Weiss, Production Director for A3C Festival &
+                    Conference, Event Management, Festival Management
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="testCards_item">
+              <div className="testCard">
+                <div className="testCard_content">
+                  <i class="fas fa-quote-left" />
+                  <p className="testCard_text">
+                    Ally did an excellent job coordination my wedding day. The
+                    event flowed seamlessly, Ally was professional throughout
+                    and our guests could not have had a better time. Ally is the
+                    right person for a perfect production.
+                    {/* <i class="fas fa-quote-right" /> */}
+                  </p>
+                  <p className="testPartner">
+                    Leah Hampton, Bride, Event Management
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div className="divider"></div>
+        </div>
       </>
     );
   }

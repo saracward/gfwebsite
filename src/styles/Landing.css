@@ -110,7 +110,6 @@ EFDD14 - not purple af at all, actually yellow.
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 3.75rem;
 }
 
 .services p {
@@ -133,6 +132,7 @@ EFDD14 - not purple af at all, actually yellow.
   color: #4b0082;
   padding: 1.25rem;
   margin: 1rem;
+  margin-bottom: 3rem;
 }
 
 .services .serviceBox img {
@@ -159,6 +159,90 @@ EFDD14 - not purple af at all, actually yellow.
   transform: translateX(-50%);
 } */
 
+.divider {
+  position: relative;
+  width: 90%;
+  border: 1px solid #efdd14;
+  margin: 0 auto;
+}
+
+.testimonialContainer h1 {
+  color: #efdd14;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.testimonialContainer h2 {
+  color: #efdd14;
+  text-align: center;
+}
+
+.testCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 2rem;
+  /* border: 2px solid red; */
+}
+
+.testCards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.testCard {
+  background-color: efdd14;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.testCard_content {
+  padding: 1rem;
+  background: transparent;
+}
+
+.testCard_title {
+  color: #efdd14;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.testCard_text {
+  color: #efdd14;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.testPartner {
+  font-size: 0.875rem;
+  color: #efdd14;
+}
+
+.fa-quote-left {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: #efdd14;
+}
+.fa-quote-right {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #efdd14;
+}
+
 @media only screen and (min-width: 767px) {
   .title {
     font-size: 4.5rem;
@@ -173,6 +257,10 @@ EFDD14 - not purple af at all, actually yellow.
 
   .services .serviceBox {
     width: 350px;
+  }
+
+  .testCards_item {
+    width: 50%;
   }
 }
 
@@ -195,6 +283,10 @@ EFDD14 - not purple af at all, actually yellow.
   .aboutContainer img {
     width: 40%;
     height: 5%;
+  }
+
+  .testCards_item {
+    width: 33%;
   }
 }
 
