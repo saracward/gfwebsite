@@ -3,8 +3,10 @@ import "../styles/FestivalManagement.css"
 
 const FestivalManagement = () => {
     return (
-        <div className="serviceContainer2">
-     <h1>Festival Management</h1>
+        <>
+    <div className="serviceContainer2">
+    <h1 className="festHeader">Festival Management</h1>
+    <br />
     <div className="border">
     <p className="festwords"> 
     We. Know. Festivals.
@@ -19,7 +21,9 @@ const FestivalManagement = () => {
     only hard-working team members operating together with you towards a successful 
     festival.</p> 
     </div>
+    <img src="https://i.ibb.co/cxZc2pG/Screen-Shot-2021-05-10-at-6-51-20-PM.png" alt="Screen-Shot-2021-05-10-at-6-51-20-PM" border="0"></img>
     </div>
+    </>
     )
 }
 

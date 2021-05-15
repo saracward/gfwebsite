@@ -3,10 +3,12 @@ import "../styles/MusicCuration.css"
 
 const MusicCuration = () => {
     return (
+        <>
+        <h1>Music Curation</h1>
         <div className="serviceContainer3">
-     <h1>Music Curation</h1>
+     <div>
     <p className="musicwords">
-    Corporate | Weddings | Festivals | Parties | Venues| Much More
+    <b>Corporate | Weddings | Festivals | Parties | Venues| Much More</b>
     <br />
     <br />
     Put your best foot forward at your next event with Good Foot Productions. 
@@ -35,6 +37,9 @@ your event, budget, etc… so that we can assist in building your vision.
 From contract negotiations to technical riders/stage plots, AV, all advancing 
 production needs. <br /> You write one check, we do the rest. So really, the winner is you.</p> 
  </div>
+ <img src="https://i.ibb.co/svFgrNs/Screen-Shot-2021-05-10-at-6-56-45-PM.png" alt="Screen-Shot-2021-05-10-at-6-56-45-PM" border="0"></img>
+ </div>
+ </>
     )
 }
 

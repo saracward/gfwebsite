@@ -25,7 +25,7 @@
 
 .contactContainer h1 {
   position: relative;
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
   margin-bottom: 3.125rem;
   color: #efdd14;
 }
@@ -33,12 +33,16 @@
 .contactContainer p {
   width: 90%;
   color: #fff;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   margin-bottom: 50px;
 }
 
 .contact-form {
   width: 90%;
+<<<<<<< HEAD
+  height: 400px;
+=======
+>>>>>>> 0c1ac8d44bd039689b4c4758a93ec52f5aeed5ab
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +55,7 @@
 }
 
 .contact-form input {
-  height: 1.875rem;
+  height: 2rem;
   font-family: "Julius Sans One", sans-serif;
   font-weight: 700;
 }
